@@ -56,9 +56,10 @@
             this.lblFile.AutoSize = true;
             this.lblFile.Location = new System.Drawing.Point(27, 70);
             this.lblFile.Name = "lblFile";
-            this.lblFile.Size = new System.Drawing.Size(75, 13);
+            this.lblFile.Size = new System.Drawing.Size(68, 13);
             this.lblFile.TabIndex = 1;
-            this.lblFile.Text = "Delimited File: ";
+            this.lblFile.Text = "Choose File: ";
+            this.lblFile.Click += new System.EventHandler(this.lblFile_Click);
             // 
             // txtFileName
             // 

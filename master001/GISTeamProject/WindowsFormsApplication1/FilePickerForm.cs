@@ -43,6 +43,11 @@ namespace DataMiningTeam.WindowsForms
         {
             this.DialogResult = DialogResult.Cancel;
             this.Close();
+        }
+
+        private void lblFile_Click(object sender, EventArgs e)
+        {
+
         }//btnCancel_Click
     }//class
 }//namespace

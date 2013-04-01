@@ -14,3 +14,5 @@ C:\Users\desktop\documents\visual studio 2010\Projects\WindowsFormsApplication1\
 C:\Users\desktop\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\DataMiningTeam.WindowsForms.frmFilePicker.resources
 C:\Users\desktop\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\desktop\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\desktop\Desktop\New folder\master001\GISTeamProject\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.exe
+C:\Users\desktop\Desktop\New folder\master001\GISTeamProject\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.pdb
