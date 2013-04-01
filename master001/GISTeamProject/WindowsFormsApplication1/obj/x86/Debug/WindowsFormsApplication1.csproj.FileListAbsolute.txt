@@ -1,0 +1,4 @@
+C:\Users\desktop\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\DataMiningTeam.WindowsForms.DMForm.resources
+C:\Users\desktop\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\DataMiningTeam.WindowsForms.frmFilePicker.resources
+C:\Users\desktop\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\desktop\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
