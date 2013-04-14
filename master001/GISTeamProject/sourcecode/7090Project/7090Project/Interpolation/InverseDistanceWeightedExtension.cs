@@ -18,7 +18,10 @@ namespace Project7090.Interpolation
 
         }
 
-
+        public InverseDistanceWeightedExtension(GISDataSet gsds)
+        {
+            GISDataToProcess = gsds;
+        }
 
         public double Interpolate(double candidateLocationX, double candidateLocationY, double encodedCandidateTime)
         {
@@ -33,8 +36,8 @@ namespace Project7090.Interpolation
                 gisPointDistances.Add(new GISDataPointDistance(gisPoint,CalculateDistance(gisPoint.x, gisPoint.y, candidateLocationX, candidateLocationY, gisPoint.time, encodedCandidateTime)));                
             }
             
-            //List of GISDataPointDistance objecs from shortest to longest distance from the candidateLocationPoint
-            //return a list with specified number of neighbors from the sorted list
+            //List of GISDataPointDistance objects from shortest to longest distance from the candidateLocationPoint
+            //Return a list with specified number of neighbors from the sorted list
             var neighbors = from points in gisPointDistances.OrderBy(p => p.Distance).Take(NumberOfNeighbors)
                                 select points;
             
