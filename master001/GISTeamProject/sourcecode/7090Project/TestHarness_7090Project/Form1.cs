@@ -31,9 +31,12 @@ namespace TestHarness_7090Project
             _engine.InverseDistanceWeightedExponent = 1.08;
             _engine.NumberOfNeighbors = 2;
             _engine.DataSetTimeDomain = Common.TimeDomain.YearMonthDay;           
-            _engine.GISInputFilePath = "C:\\Lectures\\Spring2013\\GIS\\M8\\pm25_2009_measured.txt";
-            _engine.LocationInputFilePath = "C:\\Lectures\\Spring2013\\GIS\\M8\\country_xy.txt";
-            _engine.InterpolationOutputFile = "c:\\trash\\proj_output.txt";
+            //_engine.GISInputFilePath = "C:\\Lectures\\Spring2013\\GIS\\M8\\pm25_2009_measured.txt";
+            //_engine.LocationInputFilePath = "C:\\Lectures\\Spring2013\\GIS\\M8\\country_xy.txt";
+            //_engine.InterpolationOutputFile = "c:\\trash\\proj_output.txt";
+            _engine.GISInputFilePath = "pm25_2009_measured.txt";
+            _engine.LocationInputFilePath = "county_xy.txt";
+            _engine.InterpolationOutputFile = "county_id_t_w.txt";
 
         }
 

@@ -18,6 +18,10 @@ namespace Project7090.DataTypes
             measurement = measurementParameter;
             timeContainer = timeContainerParameter;
         }
+
+        public GISDataPoint(Int64 idParameter, double xParameter, double yParameter) : base(idParameter,xParameter,yParameter)
+        {
+        }
         
         public override string ToString()
         {

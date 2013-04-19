@@ -40,16 +40,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common.cs" />
+    <Compile Include="EngineUtils.cs" />
     <Compile Include="DataTypes\DataPointSet.cs" />
     <Compile Include="DataTypes\DataPoint.cs" />
     <Compile Include="DataTypes\GISDataPoint.cs" />
     <Compile Include="DataTypes\GISDataPointDistance.cs" />
     <Compile Include="DataTypes\GISDataSet.cs" />
     <Compile Include="Events\GISLocationProcessArgs.cs" />
+    <Compile Include="Interpolation\IDW.cs" />
     <Compile Include="Interpolation\InverseDistanceWeightedExtension.cs" />
     <Compile Include="ProcessingEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataTypes\TimeDomainContainer.cs" />
+    <Compile Include="Validation\LOOCV.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -18,8 +18,6 @@ namespace Project7090.Interpolation
 
         }
 
-
-
         public double Interpolate(double candidateLocationX, double candidateLocationY, double encodedCandidateTime)
         {
             double interpolationResult = 0.0;
