@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7090Project", "7090Project\7090Project.csproj", "{2AFD46CF-D6A4-40BC-AD7B-90D3C5006DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness_7090Project", "TestHarness_7090Project\TestHarness_7090Project.csproj", "{FEF34EDB-5503-41B6-8664-77C58FECBE92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AFD46CF-D6A4-40BC-AD7B-90D3C5006DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFD46CF-D6A4-40BC-AD7B-90D3C5006DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFD46CF-D6A4-40BC-AD7B-90D3C5006DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFD46CF-D6A4-40BC-AD7B-90D3C5006DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF34EDB-5503-41B6-8664-77C58FECBE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF34EDB-5503-41B6-8664-77C58FECBE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF34EDB-5503-41B6-8664-77C58FECBE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF34EDB-5503-41B6-8664-77C58FECBE92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
